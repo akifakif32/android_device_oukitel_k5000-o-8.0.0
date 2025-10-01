@@ -1,10 +1,11 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 
 # Inherit from the common Open Source product configuration
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+
 
 # Inherit from hardware-specific part of the product configuration
-$(call inherit-product, device/oukitel/k6000_plus/device.mk)
+$(call inherit-product, device/oukitel/k5000/device.mk)
 
 # Release name
 PRODUCT_RELEASE_NAME := K5000

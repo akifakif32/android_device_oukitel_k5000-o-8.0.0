@@ -72,6 +72,8 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
 # Common stuff
 $(call inherit-product, vendor/mad/config/common.mk)
+$(call inherit-product, vendor/lineage/config/common.mk)
+
 
 # Vendor
 $(call inherit-product, vendor/oukitel/k5000/k5000-vendor.mk)
