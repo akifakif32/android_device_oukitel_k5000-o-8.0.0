@@ -42,10 +42,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/meta_init.rc:root/meta_init.rc \
     $(LOCAL_PATH)/rootdir/ueventd.mt6755.rc:root/ueventd.mt6755.rc
 
-# TWRP
-PRODUCT_PACKAGES += \
-    init.recovery.vold_decrypt.rc
-
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint.microarray@2.1-service
