@@ -1,3 +1,3 @@
-add_lunch_combo full_k5000-user
-add_lunch_combo full_k5000-userdebug
-add_lunch_combo full_K5000-eng
+add_lunch_combo lineage_k5000-user
+add_lunch_combo lineage_k5000-userdebug
+add_lunch_combo lineage_K5000-eng
