@@ -11,7 +11,7 @@ $(call inherit-product, device/oukitel/k5000/device.mk)
 PRODUCT_RELEASE_NAME := K5000
 
 PRODUCT_DEVICE := k5000
-PRODUCT_NAME := full_k5000
+PRODUCT_NAME := lineage_k5000
 PRODUCT_BRAND := Oukitel
 PRODUCT_MODEL := K5000
 PRODUCT_MANUFACTURER := Oukitel
